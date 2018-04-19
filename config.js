@@ -34,7 +34,7 @@ module.exports = {
     'handle-callback-err': [2, '^(err|error)$' ],
     'indent': [2, 2, { 'SwitchCase': 1 }],
     'space-before-function-paren': ['error', 'always'],
-    'quotes': ['error', 'prefer-single'],
+    'quotes': ['error', 'single'],
     'max-len': ['error', { 'code': 120 }],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
     'spaced-comment': ['error', 'always']
